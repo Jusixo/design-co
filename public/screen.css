@@ -57,14 +57,18 @@ menu {
      }
 
       ul {
-        position:fixed:The viewport;
+
+
+position: fixed;
+width: 100%;
+top: 0;
         color: black;
         padding-left: 0;
         list-style: none;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border-top: 0.2em solid red;
+        border-top: 0.1em solid red;
         padding-top: 0.5em solid white;
         background-color: rgb(214, 214, 214);
         padding-bottom: rgb(214, 214, 214);
@@ -74,6 +78,7 @@ menu {
 .header {
   text-align: center;
   margin: auto;
+  margin-top: 120px;
 
         }
 
