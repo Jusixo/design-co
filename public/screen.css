@@ -1,7 +1,7 @@
 html {
 text-size-adjust: 100%;
 font-style: normal;
-font-family: sans-serif;
+font-family: helvetica neue, ariel, sans-serif;
 }
   body {
   font-size: 18px;
@@ -53,14 +53,14 @@ ul {
   padding-left: 0;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  border-top: 0.1em solid red;
+  border-top: 0.2em solid red;
   padding-top: 0.5em solid white;
   background-color: rgb(214, 214, 214);
   padding-bottom: rgb(214, 214, 214);
 }
-.header {
+.words {
   text-align: center;
   margin: auto;
   margin-top: 120px;
@@ -84,3 +84,22 @@ ul {
     .secret {
     color: transparent;
     }
+
+@@media (max-width: 460px) {
+  body {
+    background-color: pink;
+  }
+  header {
+    nav ul {
+      order: 1;
+      justify-content: space-between;
+    }
+  }
+footer {
+  display: block;
+
+}
+  modern-layouts p {
+    column-count: 2;
+
+  }
